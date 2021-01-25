@@ -1,0 +1,499 @@
+
+@import url('https://fonts.googleapis.com/css2? family = Amatic + SC: wght @ 400; 700 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,100&display=swap');
+html,body{
+    margin: 0;
+    border: 0;
+}
+
+#imagem_fundo{
+    background-image: url("fundo.gif");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    display: block;
+    animation: text 3s 1;
+    text-size-adjust: 100%;
+}
+header{
+    background-color:  #171d27;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    margin-left: 2%;
+}
+#menu{
+    list-style: none;
+    margin-right: 2%;
+    float: right;
+    transition-duration: 500ms;
+}
+li{
+    float: left;
+    border-radius: 5%;
+}
+#menu li a{
+    text-decoration: none;
+    display: inline;
+    font-family: 'Amatic SC', cursive;
+    padding: 3 10 3 10;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+li:hover{
+    background-color: #97bad8;
+    color:  #212d41;
+    list-style: none;
+}
+
+
+section{
+    padding: 20px;
+    float: left;
+    display: block;
+}
+#t1{
+    color: #212d41;
+    padding-top: 17%;
+    font-size: 60px;
+    margin-bottom: 2%;
+    line-height: 0.8;
+    font-family: 'Amatic SC', cursive;
+    position: block;
+    letter-spacing: 0px;
+    transform: scaleX(1);
+    animation: fadeintext 0s .5s ease-in-out;
+    transition-duration: 1s;
+}
+.textblock{
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes fadeintext{
+    from{
+        letter-spacing: -2px;
+    }
+    to {
+       letter-spacing: 1px;
+    }   
+}
+
+h3, h2 {
+    font-family: 'Amatic SC', cursive;  
+}
+p{
+    font-family: 'Encode Sans', sans-serif; 
+    font-size: 18px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 22px;
+}
+#t2{
+    color: #212d41;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -1%;
+    border-top: 2px solid rgb(248, 248, 248);
+    padding-top: 0%;
+    padding-bottom: -10%;
+    text-shadow: 4px black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    animation: fadeintext 0s .5s ease-in-out;
+}
+.maior{
+   font-size: 20px;
+}
+.diferente{
+    font-size: 34px;
+    margin-bottom: -18px;
+    margin-top: 10px;
+}
+
+
+#acao{
+    padding: 6px 10px 6px 10px;
+    border-radius: 1%;
+    border-color: 3px #b8cee1;
+    background-color: #171d27;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+.acao{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-color: 3px #212a35 solid;
+}
+#acao:hover{
+    background-color: #b8cee1;
+    color: #171d27;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+
+.center{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.just{
+    text-align: justify;
+}
+.roxo{
+    background-color: #eff4f8;
+}
+
+
+.destaque{
+    background-image: url("rocha.jpg");
+    background-size: cover;
+    padding: 50px 20px 50px 20px ;
+}
+#proj{
+    color: white;
+}
+
+
+.imgeco{
+    width: 90% ;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+#Selecao{
+    color: white;
+    background-color: #212a35;
+    height: auto;
+    width: 97%;
+}
+.corazul{
+    background-color:  #212a35;
+    color: white;
+}
+.icone{
+    width: 72px;
+    height: 75px;
+    box-align: center;
+    margin-left: 32%;
+    border-radius: 50%;
+}
+#res:hover{
+    background-color: #97bad8; 
+    border-radius: 5%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#luz:hover{
+    background-color: #97bad8;
+    border-radius: 5%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#cam:hover{
+    background-color: #97bad8; 
+    border-radius: 5%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#pac:hover{
+    background-color: #97bad8; 
+    border-radius: 5%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#agro:hover{
+    background-color: #97bad8;
+    border-radius: 5%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+
+.colunayt{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    padding-top: 3%;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.col{
+    float: left;
+    position: relative;
+    width: 40%;
+    clear: both;
+    padding-left: 9%;
+    display: block;
+}
+.coldois{
+    float: right;
+    position: relative;
+    width: 40%;
+    padding-right: 9%;
+    padding-bottom: 4%;
+    display: block;
+    padding-top: 0%;
+}
+#colunameio{
+    display: block;
+    float: right;
+    padding: 0 1%;
+    position: relative;
+    width: 40%;
+    padding-right: 2%;
+    padding-bottom: 0%;
+}
+#colunameioimg{
+    display: block;
+    float: right;
+    padding: 0 1%;
+    position: relative;
+    width: 40%;
+    padding-right: 8%;
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+#nofuture{
+    margin-left: -4%;
+}
+.colunaquatro{
+    float: left;
+    padding: 0 1%;
+    position: relative;
+    width: 16%;
+    transform: translateX(25%);
+}
+#colmetas{
+    display: block;
+    float: left;
+    padding: 0 1%;
+    position: relative;
+    width: 40%;
+    padding-left: 6%;
+    padding-bottom: 0%;
+}
+#colytmetas{
+    display: block;
+    float: left;
+    padding: 0 1%;
+    position: relative;
+    width: 40%;
+    padding-left: 6%;
+    padding-top: 7%;
+}
+#colunatextsobre{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+#colunasobre{
+    float: left;
+    padding: 0 2%;
+    position: relative;
+    width: 38%;
+    padding-top: 4%;
+  
+}
+
+
+#leiamais{
+    display: flex;
+    float: left;
+    position: center;
+    border-radius: 2%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    transform: translateX(380%);
+    background-color: #171d27;
+    padding: 5px 6px 5px 6px;
+    margin-top: 2%;
+    margin-bottom: -6%;
+}
+
+
+footer{
+    background-color: #eff4f8;
+    color: black;
+    float: left;
+    padding-top: 3px;
+    padding-bottom: 10px;
+} 
+.rodape{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+#iconelogo{
+    width: 80px;
+}
+.iconeyt{
+    width: 30px;
+    padding-left: 4%;
+    padding-bottom: 5px;
+}
+.iconerp{
+    width: 25px;
+    padding-left: 4%;
+    padding-bottom: 7px;
+}
+#yta{
+    padding-bottom: 9px;
+}
+.iconecredito{
+    height: 30px;
+    padding-right: 4%;
+}
+
+
+#email{
+    background-color:#97bad8;
+    color:  black;
+    width: 97%;
+    height: 3px;
+    line-height: 1;
+}
+#pemail{
+    margin-top: -10px;
+    margin-bottom: -25px;
+    text-align: center;
+}
+
+
+@media only screen and (max-device-width: 780px) {
+    #projeto{
+        width: 100%;
+    }
+    #Selecao{
+        width: 100%;
+    }
+    #menu{
+        visibility: hidden;
+        width: 100%;
+    }
+    #imagem_fundo{
+        width: 100%;
+        height: 30%;
+        float: none;
+        text-size-adjust: 300%;    
+    }
+    .coluna, .colunayt{
+        display: block;
+        width: 70%;
+        padding: 0;
+        float: none;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .coldois, .col{
+        display: block;
+        width: 70%;
+        padding: 0;
+        float: none;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 8%;
+    }
+    #leiamais{
+        text-align: center;
+        font-size: 40px;
+        margin-left: -35%;
+    }
+    #colunatextsobre{
+        display: block;
+        width: 70%;
+        padding: 0;
+        float: none;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    #colytmetas, #colmetas{
+        display: block;
+        width: 70%;
+        padding: 0;
+        float: none;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    #colunasobre{
+        display: block;
+        width: 60%;
+        float: none;
+        transform: translateX(18%);
+    }
+    #colunameio, #colunameioimg{
+        display: block;
+        width: 70%;
+        float: none;
+        margin-left: 15%;
+        padding-right: 15%;
+    }
+    .colunaquatro{
+        display: block;
+        width: 70%;
+        float: none;
+        margin-left: -8%;
+        margin-left: -5%;
+    }
+    .colunatres{
+        display: block;
+        width: 70%;
+        padding: 0;
+        float: none;  
+        padding-left: 15%;
+        padding-right: 15%;  
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: -60px;
+    }
+    header{
+        width: 100%;
+        height: 120px;
+    }
+    .icone{
+        width: 180px;
+        height: 180px;
+        transform: translateX(50%);
+    }
+    #sobrejust{
+        text-align: justify;
+    }
+    footer{
+    background-color: 100%;
+    }
+    .rodape{
+        float: none;
+        position: block;
+        width: 80%;
+        margin-left: 5%;
+    }
+    #email{
+        background-color: #171d27;
+        color: white;
+        width: 97%;
+        height: 30px;
+    }
+}
